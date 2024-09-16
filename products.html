@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <link rel="icon" type="image/x.icon" href="assets/img/Picsart_24-09-16_10-33-51-979.jpg">
+      
+   <i><marquee behavior="" direction=""><b>S.B.K Earbuds Shop</b></marquee></i>
+  <i><title>Products</title></i>
+  
+    <div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">
+    <div class="topnav">
+    <a href="home.html">Home</a>
+    <a class="active" href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+  <img src="assets/img/2151074272.jpg" style="width: 100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+
+  <div class="numbertext">
+     <div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a class="active" href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+
+  <img src=" assets/img/2151074265.jpg" style="width: 100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">
+      <div class="topnav">
+    <a href="home.html">Home</a>
+    <a class="active" href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+  <img src="assets/img/2151074306.jpg" style="width: 100%">
+  <div class="text">Caption Three</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</head>
+
+<center><body>
+   <h2 class="animate__animated animate__lightSpeedInLeft">Products</h2>
+   <div class="animate__animated animate__zoomInUp" id="float">
+         <div id="card">
+        <img src="assets/img/2151039320.jpg" alt="Card Image" id="card-img">
+        <div id="card-body">
+            <h3 id="card-title">Card Title</h3>
+            <p id="card-text">This is a description of the card content.</p>
+            <p id="card-text">Price :$4.00</p>
+            <a href="contact us.html" id="card-btn">Buy Now</a>
+            <a href="#" id="card-btn">Add Card</a>
+        </div>
+    </div>
+    </div>
+   
+    <div class="animate__animated animate__zoomInUp" id="float">
+    <div id="card">
+        <img src="assets/img/G03.jpg" alt="Card Image" id="card-img">
+        <div id="card-body">
+            <h3 id="card-title">Card Title</h3>
+            <p id="card-text">This is a description of the card content.</p>
+            <p id="card-text">Price :$5.00</p>
+            <a href="contact us.html" id="card-btn">Buy Now</a>
+            <a href="#" id="card-btn">Add Card</a>
+        </div>
+    </div>
+    </div>
+
+    
+    <div class="animate__animated animate__zoomInUp"  id="float">
+    <div id="card">
+        <img src="assets/img/images (4)-1.jpeg" alt="Card Image" id="card-img">
+       <div id="card-body">
+        <h3 id="card-title">Card Title</h3>
+        <p id="card-text">This is some content inside the card. It describes the card in more detail.</p>
+         <p id="card-text">Price :$5.6</p>
+            <a href="" id="card-btn">Boy Now</a>
+            <a href="contact us.html" id="card-btn">Add Card</a>
+        </div>
+    </div>
+    </div>
+<div class="animate__animated animate__zoomInUp" id="float">
+    <div id="card">
+        <img src="assets/img/download (1).jpeg"  alt="card-img" id="card-img">
+        <div id="card-body">
+        <h3 id="card-title">Card Title</h3>
+        <p id="card-text">This is some content inside the card. It describes the card in more detail.</p>
+        <p id="card-text">Price:$4.9</p>
+            <a href="contact us.html" id="card-btn">Boy Now</a>
+            <a href="" id="card-btn">Add Card</a>
+            
+        </div>
+    </div>
+  </div>
+ <footer>
+   <div class="animate__animated animate__backInLeft" id="footer-card">
+        <div class="card-header">
+            <img src="assets/img/Screenshot_20240916-100529.jpg" alt="Company Logo" id="logo">
+            <h3>safir bilal</h3>
+            <p>Web Developer</p>
+        <div class="card-body">
+            <p>Email: bilalsafir352@gmail.com</p>
+            <p>Phone: 0325-2746937</p>
+            <p>Website: www.S.B.K Earbuds Shop.com</p>
+        </div>
+    </div>
+   </div>
+</footer>
+</body></center>
+
+</html>

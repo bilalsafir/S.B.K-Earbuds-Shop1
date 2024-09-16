@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <link rel="icon" type="image/x.icon" href="assets/img/Picsart_24-09-16_10-33-51-979.jpg">
+  <i> <marquee behavior="" direction=""><b>S.B.K Earbuds Shop</b></marquee></i>
+  <i><title>About</title></i>
+   <div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">
+    <div class="topnav">
+    <a  href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a class="active" href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+  <img src="assets/img/2151074306.jpg" style="width: 100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+
+  <div class="numbertext">
+     <div class="topnav">
+    <a  href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a class="active" href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+
+  <img src="assets/img/2151074272.jpg" style="width: 100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">
+      <div class="topnav">
+    <a class="active" href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a class="active" href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+  <img src=" assets/img/2151074265.jpg" style="width: 100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</head>
+
+<center><body>
+   <img class="animate__animated animate__slideInRight" id="lego" src="assets/img/Screenshot_20240916-100529.jpg" alt="logi">
+   <p id="p">Elevate your audio experience with our premium earbuds, designed for superior sound quality and unparalleled comfort.<br>
+   Engineered with cutting-edge technology, these earbuds deliver crisp, clear sound and deep bass, ensuring an immersive listening experience.
+   <br>Their ergonomic design ensures a snug fit, reducing external noise while providing long-lasting comfort for extended use.
+   <br>Equipped with intuitive controls and a built-in microphone, they offer seamless call management and easy access to your device's features. 
+   <br>Ideal for both casual listeners and audiophiles, these earbuds combine style and performance in a sleek, compact package.
+   <br>Perfect for on-the-go use, they are the ultimate choice for exceptional audio clarity and convenience.<br>Our premium earbuds offer a truly wireless experience, free from the tangling wires of traditional earphones.<br> With Bluetooth 5.0 technology, they provide a stable and fast connection, ensuring uninterrupted audio streaming whether you're commuting, working out, or simply relaxing at home.<br>
+
+<b>Key Features:</b><br>
+
+Noise Isolation: The advanced noise-cancellation feature ensures you enjoy your music or calls without interference from external noise.<br> Whether you’re in a noisy cafe or on a busy street, you’ll always be in control of your audio environment.<br>
+
+<b>Extended Battery Life:</b><br> Enjoy up to 24 hours of battery life with the charging case, so you never have to worry about your music stopping in the middle of your day.<br> A quick charge feature provides hours of playtime with just a few minutes of charging.<br>
+
+<b>Water-Resistant:</b><br>Designed to keep up with your active lifestyle, these earbuds are water and sweat-resistant, making them ideal for workouts and outdoor activities.<br>
+
+<b>Voice Assistant Compatibility:</b><br> With just a tap, you can activate your device's voice assistant to manage calls, music playback, and even get directions without touching your phone.<br>
+
+<b>Compact Charging Case:</b><br> The sleek, pocket-sized charging case not only protects your earbuds but also provides convenient charging on the go.<br> Its compact design easily fits in your pocket or bag, making it perfect for those who are always on the move.<br>
+
+<b>Superior Call Quality:</b><br> With dual microphones, these earbuds ensure that your voice comes through clearly on calls, even in noisy environments.<br> Perfect for professionals and anyone who needs to stay connected on the go.<br>
+</p>
+
+   <iframe class="animate__animated animate__backInUp" id="video" src="/S.B.K Earbuds Shop1/assets/video /boAt _ Airdopes 181 _FeelTheVibe(720P_HD).mp4" frameborder="0"></iframe>
+    <footer>
+   <div class="animate__animated animate__backInLeft" id="footer-card">
+        <div class="card-header">
+            <img src="assets/img/Screenshot_20240916-100529.jpg" alt="Company Logo" id="logo">
+            <h3>safir bilal</h3>
+            <p>Web Developer</p><hr>
+        <div class="card-body">
+            <p>Email: bilalsafir352@gmail.com</p>
+            <p>Phone: 0325-2746937</p>
+            <p>Website: www.S.B.K Earbuds Shop.com</p>
+        </div>
+    </div>
+   </div>
+</footer>
+</body></center>
+
+</html>

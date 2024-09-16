@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" type="image/x.icon" href="assets/img/Picsart_24-09-16_10-33-51-979.jpg">
+  <i> <marquee behavior="" direction=""> <b>S.B.K Earbuds Shop</b></marquee></i>
+  <i><title>Contact Us</title></i>
+     <div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">
+    <div class="topnav">
+    <a  href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a class="active"  href="contact us.html">Contact us</a>
+  </div></div>
+  <img src="assets/img/2151074265.jpg" style="width: 100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+
+  <div class="numbertext">
+     <div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a class="active" href="contact us.html">Contact us</a>
+  </div></div>
+
+  <img src="assets/img/2151074272.jpg" style="width: 100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">
+      <div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a class="active" href="contact us.html">Contact us</a>
+  </div></div>
+  <img src="assets/img/2151074306.jpg" style="width: 100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</head>
+
+<center><body>
+  <i><h1>This my contact</h1></i>
+  <img class="animate__animated animate__zoomInDown" id="image" src="assets/img/1726296700696.jpg" width="250" height="300">
+  <table class="animate__animated animate__rollIn">
+   <tr>
+      <th>NAME</th>
+
+      <th>ADDRESS</th>
+   </tr> 
+   <tr>
+      <td>SAFIR BILAL</td>
+      
+      <td>KORANGI BILAL COLONY</td>
+    </tr>
+  </table>
+  <table class="animate__animated animate__rollIn">
+    <tr>
+      <th>NUMBER</th>   
+      <th>EMAIL</th>
+    </tr>
+    <tr>
+      <td>0346-1975274</td>
+      <td>bilalsafir352@gmail.com</td>
+     </tr>
+  </table><br>
+  <h1>order form</h1>
+  <div class="animate__animated animate__zoomInUp"  id="from">
+  <form action="action_page.jpeg">
+    <label for="fname"><b>Your Name</b></label><br><br>
+    <input type="search" placeholder=""><br><br>
+    <label for="fname"><b>Select Item</b></label><br><br>
+    <input type="search" placeholder=""><br><br>
+    <label for="fname"><b>Country</b></label><br><br>
+    <input type="search" placeholder=""><br><br>
+    <label for="fnmae"><b>Payment Method</b></label><br><br>
+    <input type="search" placeholder=""><br><br>
+    <a id="card-btn" type="button">Sumbit</a>
+  </form>
+  </div>
+  <footer>
+   <div class="animate__animated animate__backInLeft" id="footer-card">
+        <div class="card-header">
+            <img src="assets/img/Screenshot_20240916-100529.jpg" alt="Company Logo" id="logo">
+            <h3>safir bilal</h3>
+            <p>Web Developer</p><hr>
+        <div class="card-body">
+            <p>Email: bilalsafir352@gmail.com</p>
+            <p>Phone: 0325-2746937</p>
+            <p>Website: www.S.B.K Earbuds Shop.com</p>
+        </div>
+    </div>
+   </div>
+</footer>
+</body></center>
+
+</html>
+

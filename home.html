@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" type="image/x.icon" href="assets/img/Picsart_24-09-16_10-33-51-979.jpg">
+    <i><title>Home</title></i>
+    <i><marquee behavior="" direction=""><b>S.B.K Earbuds Shop</b></marquee></i>
+
+
+   <div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">
+    <div class="topnav">
+    <a class="active" href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+  <img src="assets/img/2151074265.jpg" style="width: 100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+
+  <div class="numbertext">
+     <div class="topnav">
+    <a class="active" href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+
+  <img src="assets/img/2151074272.jpg" style="width: 100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">
+      <div class="topnav">
+    <a class="active" href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact us.html">Contact us</a>
+  </div></div>
+  <img src="assets/img/2151074306.jpg" style="width: 100%">
+
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+  <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  
+  
+
+</head><br>
+<center><body>
+
+
+<br>  <p id="p" class="animate__animated animate__bounceInLeft"><b>Welcome to [SBK EARBUDS SHOP], the Ultimate Destination for AirPods!</b><br><br>
+
+At [SBK EARBUDS SHOP], we offer a curated selection of Apple AirPods to elevate your audio experience.<br><br> Whether you’re looking for the latest AirPods Pro, AirPods Max, or any other model, we’ve got you covered.<br><br> Our shop provides high-quality products, competitive prices, and exceptional customer service.<br><br> Explore our range to find the perfect AirPods that suit your style and needs.<br><br>Experience sound like never before with [SBK EARBUDS SHOP]!</p>
+
+<img class="animate__animated animate__backInUp" id="pot" src="assets/img/2150165594.jpg" alt="earbuds" width="200" height="200"> <img class="animate__animated animate__backInUp" id="img" src="assets/img/2151074296.jpg" alt="earbuds" width="200" height="200"> <img class="animate__animated animate__backInUp" id="pot" src="assets/img/2151039320.jpg" alt="earbuds" width="200" height="200"><img class="animate__animated animate__backInUp" id="img"src="assets/img/2151074267.jpg" alt="earbuds" width="200" height="200">
+    <p id="p" class="animate__animated animate__bounceInLeft">
+  <strong>High-Quality Audio:</strong> Enjoy rich, immersive sound with deep bass and clear treble.<br><br>
+<b>Ergonomic Design:</b> The sleek, lightweight design ensures a comfortable fit for long listening sessions.<br><br>
+<b>Noise Isolation:</b> Effectively blocks out ambient noise, so you can focus on your music or calls.<br><br>
+<b>Durability:</b> Made from high-quality materials for long-lasting performance.<br><br>
+<b>Convenient Controls:</b> Easily manage your music and calls with built-in controls.<br><br>
+Perfect for music lovers, commuters, or anyone on the go. Upgrade your audio experience today with our top-notch earbuds!</p><br><br>
+<img class="animate__animated animate__backInUp" id="sel" src="assets/img/m5055295098671_red_xl.jpeg" alt="earbuds" width="400" height="400"> <img  id="sel" src="assets/img/26765185_2112.i211.002.S.m012.c13.headphones wireless realistic composition 5.jpg" alt="earburds" width="400" height="400"><br><br>
+<p id="p">Elevate your audio experience with our premium earbuds, designed for superior sound quality and unparalleled comfort.<br>
+   Engineered with cutting-edge technology, these earbuds deliver crisp, clear sound and deep bass, ensuring an immersive listening experience.
+   <br>Their ergonomic design ensures a snug fit, reducing external noise while providing long-lasting comfort for extended use.
+   <br>Equipped with intuitive controls and a built-in microphone, they offer seamless call management and easy access to your device's features. 
+   <br>Ideal for both casual listeners and audiophiles, these earbuds combine style and performance in a sleek, compact package.
+   <br>Perfect for on-the-go use, they are the ultimate choice for exceptional audio clarity and convenience.<br></p>
+<footer>
+   <div class="animate__animated animate__backInLeft" id="footer-card">
+        <div class="card-header">
+            <img src="assets/img/Screenshot_20240916-100529.jpg" alt="Company Logo" id="logo">
+            <h3>safir bilal</h3>
+            <p>Web Developer</p><hr>
+        <div class="card-body">
+            <p>Email: bilalsafir352@gmail.com</p>
+            <p>Phone: 0325-2746937</p>
+            <p>Website: www.S.B.K Earbuds Shop.com</p>
+        </div>
+    </div>
+   </div>
+</footer>
+</body></center>
+
+</html>
